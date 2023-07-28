@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #BAD7E9 ;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color:#2B3467;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    width:100%;
+    
+}
+.header>h1{
+    display: flex;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: flex;
+    height: 600px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+} 
+@media(max-width:800px){
+    .container{
+        flex-direction:column;
+    }
+}
+.card{
+    width: 220px;
+    height: 220px;
+    background-color: #2B3467;
+    margin: 80px;
+    border-radius: 8px;
+    margin-top:100px;
+}
+
+.crdimg{
+    width:60%;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    padding-top: 44px;
+}
+.crd_name{
+    width:80%;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+}
+.crdimg>img{
+    height: 100px;
+    width: 100px;
+}
+h3>a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    background-color: #2B3467;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    height: 34px;
+    margin-top: 30px;
+}
+.footer>h4{
+    display: flex;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+     

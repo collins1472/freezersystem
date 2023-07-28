@@ -1,0 +1,40 @@
+
+form{
+    width: 100%;
+}
+table{
+    border: 1px solid black;
+    width: 100%;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td,th{
+    text-align:left;
+    padding: 7px;
+}
+td>input{
+    margin-top:10px;
+    margin-bottom: 10px;
+    height:30px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+.submit>input{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.submit>input:hover{
+    background-color:  #2B3467;
+}
+@media(max-width:800px){
+    table{
+        flex-shrink: 1;
+    }
+}
